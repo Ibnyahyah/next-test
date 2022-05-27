@@ -1,0 +1,24 @@
+.MeetupList{
+    width:100%;
+    margin: auto;
+}
+.MeetupList .card{
+    width:100%;
+    box-shadow: 2px 20px 40px rgba(0,0,0,0.3);
+    margin: 20px 0px;
+    padding-bottom:20px;
+}
+.MeetupList .card img{
+    width:100%;
+}
+.MeetupList .card .content{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.MeetupList .card .content button{
+    padding:10px;
+    border: 0;
+    background-color: #008753;
+    color: #fff;
+    border-radius:3px;
+}

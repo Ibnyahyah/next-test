@@ -1,0 +1,29 @@
+.card{
+    box-shadow: 2px 20px 40px rgba(0,0,0,0.3);
+    margin-top:100px;
+    padding:10px 0px;
+}
+.card form{
+    width:95%;
+    margin: auto;
+}
+.card form label{
+    font-weight:600;
+}
+.card form input, .card form textarea{
+    width:100%;
+    padding:10px 3px;
+    margin:5px 0px;
+    outline:0;
+}
+.card form input[type="text"]{
+    color:#008753;
+    font-weight:500;
+}
+.card form button{
+    padding:10px;
+    border:none;
+    border-radius:3px;
+    background-color:#008753;
+    color:#fff;
+}

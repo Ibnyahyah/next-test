@@ -1,0 +1,23 @@
+.navbarContainer{
+    background-color: #008753;
+    position:sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+    margin: auto;
+    align-items:center;
+    color: #fff;
+    padding:10px 0px
+}
+.title{
+    font-size:25px;
+    font-weight: 700;
+}
+.navbar li{
+    display:inline;
+    margin: 0 10px;
+}

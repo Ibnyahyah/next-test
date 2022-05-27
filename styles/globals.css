@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -13,4 +12,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-size: 30px;
+  animation: loader linear infinite 0.5s;
+  color: #008753;
+}
+@keyframes loader {
+  0%{
+    transform: rotate(360deg);
+  }
 }

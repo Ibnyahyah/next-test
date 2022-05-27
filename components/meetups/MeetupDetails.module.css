@@ -1,0 +1,15 @@
+.MeetupList{
+    margin-top:50px
+}
+.MeetupList .card{
+    width:100%;
+    margin: 20px 0px;
+    padding-bottom:20px;
+}
+.MeetupList .card img{
+    width:100%;
+}
+.MeetupList .card .content{
+    text-align: center;
+    letter-spacing: 2px;
+}
